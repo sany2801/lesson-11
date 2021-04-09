@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "viriables.scss"
+    ],
+    "names": [],
+    "file": "viriables.css"
+}
+
+@mixin my

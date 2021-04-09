@@ -1,0 +1,25 @@
+@import "variables";
+
+div {
+  width: 200px;
+  background-color: rgba(0, 0, 255, 0.356);
+  padding: 2rem 0;
+  ul {
+    background-color: burlywood;
+    li {
+      color: $blue;
+      //   color: blue;
+      &:hover {
+        background-color: chocolate;
+      }
+    }
+  }
+}
+@mixin myfont {
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+}
+body {
+  margin: 0;
+  @include myfont;
+}

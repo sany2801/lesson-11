@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+/* div {
+  background-color: yellow;
+  padding: 20px;
+}
+header {
+  padding: 20px;
+}
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "header section1 "
+    "header section2 "
+    "header section3 ";
+  /* grid-template-rows: 1fr 1fr 1fr; 
+  grid-template-columns: 10fr 1fr;
+  gap: 20px 10px;
+  height: 100vh;
+  margin: 0;
+  width: 85%;
+  height: 200px;
+  align-items: center;
+  margin: 0 auto;
+} */
+/* #header {
+  grid-area: header;
+}
+.section1 {
+  grid-area: section1;
+}
+.section2 {
+  grid-area: section2;
+}
+.section3 {
+  grid-area: section3;
+}
+
+@media (max-width: 500px) {
+  .wrapper {
+    height: 350px;
+    display: grid;
+    grid-template-areas:
+      "header "
+      "section1"
+      "section2"
+      "section3";
+    grid-template-rows: 80px 1fr 70px 1fr 70px;
+    grid-template-columns: 1fr;
+  }
+} */
+/* #grid {
+  display: grid;
+  grid-template-columns: 120px 1fr 80px;
+  grid-template-rows: 56px 1fr 80px;
+  gap: 5px;
+  height: 100vh;
+}
+#grid div {
+  background-color: yellow;
+}
+#item1 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 2;
+}
+#item2 {
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-row-end: 4;
+  grid-column-end: 4;
+} */
+/* #auter_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 8px;
+}
+#auter_grid > div {
+  background-color: yellow;
+  color: whitesmoke;
+  padding: 8px;
+  font-size: 4vw;
+}
+#inner_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:5px;
+}
+#inner-grid > div{
+    background-color: violet;
+    padding: 8px;
+} */
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+  background-color: darkcyan;
+  height: 100vh;
+}
+#grid div {
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  width: 50%;
+  height: 100px;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
